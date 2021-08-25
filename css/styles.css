@@ -47,6 +47,15 @@ body {
     height: 3.75rem;
 }
 
+/* .intro p {
+    display: inline;
+}
+
 .intro-heading {
-    
+    display: inline;
+} */
+
+.col-50 {
+    display: inline-block;
+    width: 50%;
 }
