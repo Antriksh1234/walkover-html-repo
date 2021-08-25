@@ -1,0 +1,52 @@
+.nav-links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav-item-wrapper {
+    float: right;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-item:hover {
+    background-color: #d4c8c7;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-header {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    margin-top: 0.85rem;
+}
+
+.nav-anchor {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.nav-wrapper {
+    background-color: #d5e6e2;
+    height: 3.75rem;
+}
+
+.intro-heading {
+    
+}
