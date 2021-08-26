@@ -18,7 +18,7 @@
 }
 
 .nav-item:hover {
-    background-color: #d4c8c7;
+    background-color: black;
 }
 
 body {
@@ -28,34 +28,65 @@ body {
 .nav-header {
     display: inline-block;
     font-size: 1.6rem;
-    font-family: sans-serif;
     font-family: 'Roboto', sans-serif;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    color: white;
     margin-top: 0.85rem;
 }
 
 .nav-anchor {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
 
 .nav-wrapper {
-    background-color: #d5e6e2;
+    background-color: #3f101b;
     height: 3.75rem;
 }
 
-/* .intro p {
-    display: inline;
+.intro {
+    display: flex;
+    width: 100%;
+}
+
+.text-50 {
+    flex: 50%;
+    padding-left: 2rem;
+    background-color: #b04d64;;
+}
+
+.img-50 {
+    flex: 50%;
+    text-align: end;
+    padding-right: 2.5rem;    
+    background-color: #b04d64;
+}
+
+.intro-img {
+    border-radius: 10%;
+    margin: 2rem;
+    width: 25rem;
+    height: 25rem;
 }
 
 .intro-heading {
-    display: inline;
-} */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 18%;
+    letter-spacing: 2px;
+    line-height: 1.25;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
 
-.col-50 {
-    display: inline-block;
-    width: 50%;
+.intro-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.cravings-style {
+    color: white;
 }
