@@ -90,3 +90,27 @@ body {
 .cravings-style {
     color: white;
 }
+
+.product-heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+.product-div {
+    display: grid;
+}
+
+.product {
+    display: inline-block;
+}
+
+.product-img {
+    border-radius: 100%;
+    vertical-align: top;
+}
+
+.caption-img {
+    text-align: center;
+    display: inline;
+}
