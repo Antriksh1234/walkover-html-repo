@@ -384,5 +384,8 @@ body {
     .testimonials-head {
         font-size: 2rem;
         text-align: center;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
