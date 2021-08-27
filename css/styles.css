@@ -261,18 +261,21 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    html,body{
+/*     html,body{
         overflow-x: hidden;
-    }
+    } */
     
     .product {
         display: block;
         text-align: center;
-        width: 90%;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .product-div {
         text-align: center;
+        width: 100%;
     }
 
     .contact-us textarea {
@@ -289,6 +292,8 @@ body {
         display: block;
         text-align: center;
         width: 100%;
+        padding-right: 0;
+        padding-left: 0;
         margin-bottom: 2rem;
     }
 
@@ -304,6 +309,7 @@ body {
     .img-50 {
         text-align: center;
         width: 100%;
+        padding-right: 0;
     }
 
     .intro-heading {
