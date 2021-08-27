@@ -260,11 +260,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
-/*     html,body{
-        overflow-x: hidden;
-    } */
-    
+@media only screen and (max-width: 768px) {    
     .product {
         display: block;
         text-align: center;
@@ -336,6 +332,7 @@ body {
     }
 
     .review {
+        padding-top: 1rem;
         margin-block-start: 0;
         margin-block-end: 0;
     }
@@ -368,6 +365,8 @@ body {
         float: none;
     }
 
+
+
     .nav-header {
         display: block;
         text-align: center;
@@ -375,5 +374,15 @@ body {
 
     .nav-item {
         flex: 30%;
+    }
+
+    .product-heading {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .testimonials-head {
+        font-size: 2rem;
+        text-align: center;
     }
 }
