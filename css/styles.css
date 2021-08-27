@@ -261,10 +261,14 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    
     .product {
         display: block;
         text-align: center;
-        width: 100%;
+        width: 90%;
     }
 
     .product-div {
@@ -299,6 +303,7 @@ body {
 
     .img-50 {
         text-align: center;
+        width: 100%;
     }
 
     .intro-heading {
@@ -316,11 +321,29 @@ body {
         display: inline-block;
     }
 
+    .intro-img {
+        width: 70%;
+        height: 70%;
+    }
+
     .review {
         margin-block-start: 0;
         margin-block-end: 0;
     }
 
     .name-customer {
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
+    .testimonials-section {
+        width: 100%;
+    }
+
+    .product-heading {
+        width: 100%;
+        text-align: center;
     }
 }
