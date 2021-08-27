@@ -299,6 +299,7 @@ body {
 
     .intro {
         display: block;
+        padding-top: 7.5rem;
         width: 100%;
     }
 
@@ -324,6 +325,8 @@ body {
 
     .intro-p {
         margin-bottom: 0;
+        text-align: center;
+        width: 70%;
         display: inline-block;
     }
 
@@ -337,9 +340,6 @@ body {
         margin-block-end: 0;
     }
 
-    .name-customer {
-    }
-
     .contact-us {
         width: 100%;
     }
@@ -351,5 +351,29 @@ body {
     .product-heading {
         width: 100%;
         text-align: center;
+    }
+
+    .nav-wrapper {
+        height: 7.5rem;
+    }
+
+    .nav-item-wrapper {
+        /* background-color: #ccc; */
+        margin-top: 1rem;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        width: 80%;
+        float: none;
+    }
+
+    .nav-header {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-item {
+        flex: 30%;
     }
 }
