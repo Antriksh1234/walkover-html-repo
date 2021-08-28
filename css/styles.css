@@ -19,6 +19,7 @@
 }
 
 .nav-item:hover {
+    transition: 0.5s;
     background-color: black;
 }
 
