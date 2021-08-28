@@ -1,3 +1,27 @@
+.top-arrow {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 100%;
+    background-color:#3f101b;
+    position: fixed;
+    z-index: 1;
+    top: 4.5rem;
+    color: white;
+    right: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-right: 2rem;
+}
+
+.top-arrow i {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .nav-links {
     list-style: none;
     padding-left: 0;
@@ -419,5 +443,20 @@ body {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .top-arrow {
+        width: 3rem;
+        height: 3rem;
+        margin-top: 5rem;
+    }
+
+    .top-arrow i {
+        font-size: 1.5rem;
+    }
+
+    .contact-us-heading {
+        text-align: center;
+        margin-left: 0;
     }
 }
