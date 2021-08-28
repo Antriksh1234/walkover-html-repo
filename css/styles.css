@@ -47,6 +47,7 @@ body {
     position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    z-index: 1;
     width: 100%;
     background-color: #3f101b;
     height: 3.75rem;
@@ -128,19 +129,40 @@ body {
 }
 
 .testimonials-section {
+    position: relative;
     text-align: center;
     padding-bottom: 2.5rem;
     background-color: #b04d64;
 }
 
 .user-review {
+    position: relative;
+    box-shadow: 0 8px 16px #8b384c;
+    margin-top: 2rem;
     display: inline-block;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    background-color: white;
     padding-right: 1rem;
+    border-radius: 2rem;
     padding-left: 1rem;
-    width: 30%;
+    width: 20%;
+}
+
+.user-review i {
+    color: #b04d64;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.quotaion {
+    text-align: left;
+    margin-left: 15%;
 }
 
 .customer {
+    margin-top: 2rem;
     height: 8rem;
     border-radius: 100%;
     width: 8rem;
@@ -148,7 +170,7 @@ body {
 
 .testimonials-head {
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    /*padding-bottom: 2.5rem;*/
     font-size: 2.5rem;
     display: block;
     color: white;
@@ -157,16 +179,18 @@ body {
 
 .review {
     text-align: left;
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: black;
+    font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
 
 .name-customer {
-    color: white;
+    color: black;
     margin-left: 50%;
+    font-size: 1.25rem;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -287,10 +311,16 @@ body {
     .user-review {
         display: block;
         text-align: center;
-        width: 100%;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
         padding-right: 0;
         padding-left: 0;
         margin-bottom: 2rem;
+    }
+
+    .name-customer {
+        padding-bottom: 2rem;
     }
 
     .intro {
@@ -333,7 +363,7 @@ body {
     }
 
     .review {
-        padding-top: 1rem;
+        padding-top: 0rem;
         margin-block-start: 0;
         margin-block-end: 0;
     }
@@ -366,8 +396,6 @@ body {
         float: none;
     }
 
-
-
     .nav-header {
         display: block;
         text-align: center;
@@ -385,6 +413,7 @@ body {
 
     .testimonials-head {
         font-size: 2rem;
+        padding-bottom: 2rem;
         text-align: center;
         width: 70%;
         margin-left: auto;
