@@ -312,6 +312,7 @@ body {
     .intro-heading {
         font-family: 'Roboto', sans-serif;
         margin-top: 0;
+        margin-left: 0;
         padding-top: 2rem;
         letter-spacing: 2px;
         line-height: 1.25;
@@ -370,6 +371,7 @@ body {
     .nav-header {
         display: block;
         text-align: center;
+        margin-left: 0;
     }
 
     .nav-item {
